@@ -35,7 +35,7 @@ func (t *Triager) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 	repo := r.FormValue("repo")
 	if repo == "" {
-		repo = "jekyll/jekyll"
+		repo = "jupyterhub/jupyterhub"
 	}
 
 	issueType := r.FormValue("type")

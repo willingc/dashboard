@@ -8,7 +8,7 @@ import (
 )
 
 var pretendTemplateInfo = templateInfo{
-	RepoName:  "jekyll/test",
+	RepoName:  "jupyterhub/test",
 	IssueType: "issue",
 	IssuesGroupedByLabel: []IssueGrouping{
 		{
@@ -22,7 +22,7 @@ var pretendTemplateInfo = templateInfo{
 					Title:   github.String("Update boolean documentation"),
 					Labels:  []github.Label{},
 					User:    &github.User{Login: github.String("acontributor")},
-					HTMLURL: github.String("https://github.com/jekyll/test/issues/125"),
+					HTMLURL: github.String("https://github.com/jupyterhub/test/issues/125"),
 					Assignees: []*github.User{
 						{Login: github.String("areviewer")},
 						{Login: github.String("anotherreviewer")},
@@ -78,7 +78,7 @@ Last updated <b>{{.LastUpdated}}</b>
 
 <b>{{.Total}} pending {{.IssueType}}s</b>
 
-Filter by using the <b>type</b> (issue/pr/all), <b>label</b> (see below), or <b>repo</b> (nwo, e.g. "jekyll/jekyll") URL parameters. You can reorder by creation date using <b>order</b> key (asc/desc). Example: <a href="/triage?type=issue&label=documentation&order=desc">view only "documentation" issues starting with newest</a>.
+Filter by using the <b>type</b> (issue/pr/all), <b>label</b> (see below), or <b>repo</b> (nwo, e.g. "jupyterhub/jupyterhub") URL parameters. You can reorder by creation date using <b>order</b> key (asc/desc). Example: <a href="/triage?type=issue&label=documentation&order=desc">view only "documentation" issues starting with newest</a>.
 
 <hr><b><font size='+1'>Pending {{.IssueType}}s</font></b>
 

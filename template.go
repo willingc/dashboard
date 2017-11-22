@@ -153,7 +153,7 @@ var (
 <div class="markdown-body">
 
 <table>
-  <caption>Jekyll At-a-Glance Dashboard</caption>
+  <caption>jupyterhub At-a-Glance Dashboard</caption>
   <thead>
     <tr>
       <th>Repo</th>
@@ -175,7 +175,7 @@ var (
 
 <div>
 	<strong>Commits are as of this week. Issues and pull requests are total open.</strong>
-	<a href="https://github.com/jekyll/dashboard">Source Code</a>.
+	<a href="https://github.com/jupyterhub/dashboard">Source Code</a>.
 </div>
 
 <p>

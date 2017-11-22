@@ -1,9 +1,9 @@
 # dashboard
-A dashboard for at-a-glance knowledge of the health of the Jekyll ecosystem.
+A dashboard for at-a-glance knowledge of the health of the jupyterhub ecosystem.
 
 ## Features
 
-Jekyll Dashboard
+jupyterhub Dashboard
 
 - Shows all our plugins at a glance. Versions. Changes since latest version
 - Shows the core team

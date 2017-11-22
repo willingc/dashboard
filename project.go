@@ -9,28 +9,9 @@ import (
 var (
 	defaultProjectMap map[string]*Project
 	defaultProjects   = []*Project{
-		newProject("jekyll", "jekyll/jekyll", "master", "jekyll"),
-		newProject("jemoji", "jekyll/jemoji", "master", "jemoji"),
-		newProject("mercenary", "jekyll/mercenary", "master", "mercenary"),
-		newProject("jekyll-import", "jekyll/jekyll-import", "master", "jekyll-import"),
-		newProject("jekyll-feed", "jekyll/jekyll-feed", "master", "jekyll-feed"),
-		newProject("jekyll-seo-tag", "jekyll/jekyll-seo-tag", "master", "jekyll-seo-tag"),
-		newProject("jekyll-sitemap", "jekyll/jekyll-sitemap", "master", "jekyll-sitemap"),
-		newProject("jekyll-mentions", "jekyll/jekyll-mentions", "master", "jekyll-mentions"),
-		newProject("jekyll-watch", "jekyll/jekyll-watch", "master", "jekyll-watch"),
-		newProject("jekyll-compose", "jekyll/jekyll-compose", "master", "jekyll-compose"),
-		newProject("jekyll-paginate", "jekyll/jekyll-paginate", "master", "jekyll-paginate"),
-		newProject("jekyll-gist", "jekyll/jekyll-gist", "master", "jekyll-gist"),
-		newProject("jekyll-coffeescript", "jekyll/jekyll-coffeescript", "master", "jekyll-coffeescript"),
-		newProject("jekyll-opal", "jekyll/jekyll-opal", "master", "jekyll-opal"),
-		newProject("classifier-reborn", "jekyll/classifier-reborn", "master", "classifier-reborn"),
-		newProject("jekyll-sass-converter", "jekyll/jekyll-sass-converter", "master", "jekyll-sass-converter"),
-		newProject("jekyll-textile-converter", "jekyll/jekyll-textile-converter", "master", "jekyll-textile-converter"),
-		newProject("jekyll-redirect-from", "jekyll/jekyll-redirect-from", "master", "jekyll-redirect-from"),
-		newProject("github-metadata", "jekyll/github-metadata", "master", "jekyll-github-metadata"),
-		newProject("jekyll-archives", "jekyll/jekyll-archives", "master", "jekyll-archives"),
-		newProject("plugins website", "jekyll/plugins", "gh-pages", ""),
-		newProject("jekyll docker", "jekyll/docker", "master", ""),
+		newProject("jupyterhub", "jupyterhub/jupyterhub", "master", "jupyterhub"),
+		newProject("configurable-http-proxy", "jupyterhub/configurable-http-proxy", "master", "configurable-http-proxy"),
+		newProject("binderhub", "jupyterhub/binderhub", "master", "binderhub"),
 	}
 )
 
